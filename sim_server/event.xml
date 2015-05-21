@@ -1,0 +1,50 @@
+<?xml version=1.0 coding="utf-8"?>
+
+<CONFIGURATION>
+    <Event id=1><![CDATA[
+*   495 REPT ALM EQPT
+"RCMM-1-3:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem - Degraded\""
+    ]]></Event>
+    <Event id=1><![CDATA[
+*   496 REPT ALM EQPT
+"RCMM-1-7:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem - Degraded\""
+    ]]></Event>
+    <Event id=1><![CDATA[
+*   497 REPT ALM EQPT
+"RCMM-1-10:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem - Degraded\""
+    ]]></Event>
+    <Event id=1><![CDATA[
+*   498 REPT ALM EQPT
+"RCMM-1-14:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem - Degraded\""
+    ]]></Event>
+    <Event id=2><![CDATA[
+A   596 REPT ALM EQPT
+"RCMM-1-3:CL,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem - Degraded\""
+    ]]></Event>
+    <Event id=2><![CDATA[
+A   597 REPT ALM EQPT
+"RCMM-1-7:CL,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem - Degraded\""
+    ]]></Event>
+    <Event id=2><![CDATA[
+A   598 REPT ALM EQPT
+"RCMM-1-10:CL,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem - Degraded\""
+    ]]></Event>
+    <Event id=2><![CDATA[
+A   599 REPT ALM EQPT
+"RCMM-1-14:CL,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem - Degraded\""
+    ]]></Event>
+    <Event id=3><![CDATA[
+*   699 REPT ALM EQPT
+"RCMM-1-3:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem - Degraded\""
+    ]]></Event>
+    <Event id=4><![CDATA[
+*   699 REPT ALM EQPT
+"RCMM-1-3:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem - Degraded\""
+    ]]></Event>
+    <Event id=5><![CDATA[
+*   699 REPT ALM EQPT
+"RCMM-1-3:CR,RUP-DEGR,NSA,[DATE],[TIME],NEND,NA:\"Replaceable Unit Problem - Degraded\""
+    ]]></Event>
+</CONFIGURATION>
+
+

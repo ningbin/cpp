@@ -1,0 +1,830 @@
+<?xml version=1.0 coding="utf-8"?>
+
+<CONFIGURATION>
+    <NE>
+        <tid>MY_T152</tid>
+        <port>1993</port>
+        <type>standalone</type>
+        <conf>T152_config.xml</conf>
+    </NE>
+    <NE>
+        <tid>MY_NAPERVILLE</tid>
+        <port>1994</port>
+        <type>standalone</type>
+        <conf>NAPERVILLE_config.xml</conf>
+    </NE>
+    <NE>
+        <tid>GNE_1</tid>
+        <port>3082</port>
+        <type>gne</type>
+        <conf>T152_config.xml</conf>
+        <rne>
+            <tid>RNE1_1</tid>
+            <conf>T152_config.xml</conf>
+        </rne>
+        <rne>
+            <tid>RNE1_2</tid>
+            <conf>T152_config.xml</conf>
+        </rne>
+        <rne>
+            <tid>RNE1_3</tid>
+            <conf>T152_config.xml</conf>
+        </rne>
+        <rne>
+            <tid>RNE1_4</tid>
+            <conf>T152_config.xml</conf>
+        </rne>
+        <rne>
+            <tid>RNE1_5</tid>
+            <conf>T152_config.xml</conf>
+        </rne>
+        <rne>
+            <tid>RNE1_6</tid>
+            <conf>T152_config.xml</conf>
+        </rne>
+        <rne>
+            <tid>RNE1_7</tid>
+            <conf>T152_config.xml</conf>
+        </rne>
+        <rne>
+            <tid>RNE1_8</tid>
+            <conf>T152_config.xml</conf>
+        </rne>
+        <rne>
+            <tid>RNE1_9</tid>
+            <conf>T152_config.xml</conf>
+        </rne>
+        <rne>
+            <tid>RNE1_10</tid>
+            <conf>T152_config.xml</conf>
+        </rne>
+<!--    <rne>                           -->
+<!--        <tid>RNE1_11</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_12</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_13</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_14</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_15</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_16</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_17</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_18</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_19</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_20</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_21</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_22</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_23</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_24</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_25</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_26</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_27</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_28</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_29</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_30</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_31</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_32</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_33</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_34</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_35</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_36</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_37</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_38</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_39</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_40</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_41</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_42</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_43</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_44</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_45</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_46</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_47</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_48</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_49</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_50</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_51</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_52</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_53</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_54</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_55</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_56</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_57</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_58</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_59</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_60</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_61</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_62</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_63</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_64</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_65</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_66</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_67</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_68</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_69</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_70</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_71</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_72</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_73</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_74</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_75</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_76</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_77</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_78</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_79</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_80</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_81</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_82</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_83</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_84</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_85</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_86</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_87</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_88</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_89</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_90</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_91</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_92</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_93</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_94</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_95</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_96</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_97</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_98</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_99</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE1_100</tid>         -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+    </NE>
+<!--<NE>                                -->
+<!--    <tid>GNE_2</tid>                -->
+<!--    <port>1996</port>               -->
+<!--    <type>gne</type>                -->
+<!--    <conf>T152_config.xml</conf>    -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_1</tid>           -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_2</tid>           -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_3</tid>           -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_4</tid>           -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_5</tid>           -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_6</tid>           -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_7</tid>           -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_8</tid>           -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_9</tid>           -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_10</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_11</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_12</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_13</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_14</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_15</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_16</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_17</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_18</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_19</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_20</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_21</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_22</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_23</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_24</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_25</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_26</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_27</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_28</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_29</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_30</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_31</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_32</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_33</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_34</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_35</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_36</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_37</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_38</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_39</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_40</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_41</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_42</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_43</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_44</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_45</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_46</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_47</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_48</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_49</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_50</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_51</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_52</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_53</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_54</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_55</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_56</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_57</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_58</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_59</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_60</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_61</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_62</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_63</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_64</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_65</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_66</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_67</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_68</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_69</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_70</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_71</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_72</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_73</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_74</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_75</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_76</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_77</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_78</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_79</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_80</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_81</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_82</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_83</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_84</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_85</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_86</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_87</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_88</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_89</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_90</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_91</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_92</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_93</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_94</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_95</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_96</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_97</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_98</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_99</tid>          -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--    <rne>                           -->
+<!--        <tid>RNE2_100</tid>         -->
+<!--        <conf>T152_config.xml</conf>-->
+<!--    </rne>                          -->
+<!--</NE>                               -->
+</CONFIGURATION>
+
+
